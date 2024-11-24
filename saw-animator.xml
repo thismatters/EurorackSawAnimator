@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>/home/pstiverson/Projects/AR-808/hardware/saw-animator/saw-animator.kicad_sch</source>
-    <date>Sun 17 Nov 2024 02:38:33 PM CST</date>
+    <source>/home/pstiverson/Projects/AR-808/Eurorack/saw-animator/saw-animator.kicad_sch</source>
+    <date>Sun 24 Nov 2024 05:38:45 AM CST</date>
     <tool>Eeschema 7.0.9-7.0.9~ubuntu22.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -512,7 +512,7 @@
       <tstamps>87ddb25a-823b-41f7-b4d9-4dfdf28873de</tstamps>
     </comp>
     <comp ref="R15">
-      <value>47K</value>
+      <value>120K</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
@@ -523,7 +523,7 @@
       <tstamps>797376d4-0fd3-42d2-860c-2a7b37c9ffe0</tstamps>
     </comp>
     <comp ref="R16">
-      <value>88K</value>
+      <value>220K</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
@@ -699,7 +699,7 @@
       <property name="ki_description" value="Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"/>
       <property name="ki_keywords" value="quad opamp"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>a24a8014-ac0a-485c-82e2-59f94274002b 8825684d-9f16-466c-b0c6-0ac8183b97ba b7c0bb8c-df75-4556-aa02-8abddfcd5bbc 4ee8ce02-56ff-4594-aef5-56f353e32af4 26f97094-5393-43cb-adbe-09b989ca4f37</tstamps>
+      <tstamps>8825684d-9f16-466c-b0c6-0ac8183b97ba a24a8014-ac0a-485c-82e2-59f94274002b b7c0bb8c-df75-4556-aa02-8abddfcd5bbc 4ee8ce02-56ff-4594-aef5-56f353e32af4 26f97094-5393-43cb-adbe-09b989ca4f37</tstamps>
     </comp>
   </components>
   <libparts>
