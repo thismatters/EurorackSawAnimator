@@ -31,7 +31,16 @@ Output jack for animated saw output. LED which tracks the internal LFO.
 
 ## Adjustment
 
-TODO
+### Refine shape
+
+- Ground the LFO input
+- Connect a balanced saw wave (+/-5V) to the input
+- Connect oscilloscope to the output
+- Adjust RV2 (the one in the middle layer) until the triangle looks smooth
+
+###  Set Balance
+
+- Adjust RV1 so that the output is blanaced in the +/-5V range.
 
 ## Vendors
 
@@ -40,4 +49,11 @@ There are part numbers in the [BOM](saw-animator.csv) for many of the parts (not
 * [Mouser](https://www.mouser.com): Needs no introduction. Get your ICs from here (or [digikey](https://www.digikey.com)).
 * [Tayda Electronics](https://www.taydaelectronics.com/): Good supplier for passive components; audio jacks, and potentiometers. Their audio jacks are slightly smaller than the thonkiconn from thonk.
 * [Love My Switches](https://lovemyswitches.com/): Has [really good knobs](https://lovemyswitches.com/anodized-aluminum-knob-the-lo-fi-1-4-smooth-shaft-12-5mm-od/) to go on those potentiometers!
-* [OSHPark](https://oshpark.com/): Fast and (relatively) cheap PCB manufacturer. I haven't done a prototype run yet... stay tuned.
+* [OSHPark](https://oshpark.com/): Fast and (relatively) cheap PCB manufacturer. [V0 PCB](https://oshpark.com/shared_projects/MXBVaxpS)
+
+
+## Issues
+
+### V0
+- The output saw waveshape is slightly distorted at the bottom, the slope is a little off
+- Assembly was harder than necessary because the two boards with SMD components did not have enough support tabs to keep them together; each board had to be registered for solder paste application separately.
